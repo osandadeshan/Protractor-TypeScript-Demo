@@ -1,4 +1,4 @@
-# Protractor with Typescript
+# Protractor TypeScript Demo
 
 Typescript provides code auto completion and helpful hints with a text editor like Microsoft's Visual Studio Code or another text editor with Typescript support.
 
