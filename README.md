@@ -66,7 +66,10 @@ npm install --save-dev @types/jasmine @types/jasminewd2
 
 ## Compiling your code
 
-To convert your typescript to javascript (transpiling), you'll use the Typescript compiler (tsc). To istall it use this command `npm install typescript -g`
+To convert your typescript to javascript (transpiling), you'll use the Typescript compiler (tsc). To istall it use this command 
+```
+npm install typescript -g
+```
 If you install typescript globally, the command is `tsc`. If it is not installed globally, the typescript compiler can be executed with `npm run tsc`.
 
 ## Running Protractor
