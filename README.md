@@ -6,31 +6,22 @@ Note that this example uses TypeScript 2.0.
 
 ## Examples
 
-There are two examples in this directory:
-
-* Simple Protractor example
-  * Similar to the [github protractor example](https://github.com/angular/protractor/tree/master/example)
-  * Files `conf.ts` and `spec.ts`
-* Page objects example
-  * Follows the [protractortest.org page objects example](http://www.protractortest.org/#/page-objects)
-  * Files `confPageObjects.ts`, `specPageObjects.ts`, and `angularPage.ts`
+This example demonstrates how you should use page object model design pattern with Protractor and TypeScript.
 
 ## File organization
 
 ```
-exampleTypescript/
-|- node_modules/       // downloaded node modules
-|- tmp/                // compiled javascript output
+Protractor-TypeScript-Demo/
+|- node_modules/             // downloaded node modules
+|- compiled_typescript/      // compiled javascript output
 |
-|- .gitignore          // since typescript produces javascript, we should not
-|                      // commit javascript to the repo
-|- angularPage.ts      // page object example
-|- confPageObjects.ts  // configuration for the page objects example
-|- package.json        // node dependencies for the project
-|- README.md           // this file
-|- spec.ts             // spec for the simple protractor example
-|- specPageObjects.ts  // spec for the page objects example
-|- tsconfig.json       // typescript transpile configuration
+|- .gitignore                // since typescript produces javascript, we should not commit javascript to the repo
+|- page/angularPage.ts       // page object example
+|- conf.ts                   // configuration for the page objects example
+|- package.json              // node dependencies for the project
+|- README.md                 // this file
+|- spec/angularPageSpec.ts   // spec for the page objects example
+|- tsconfig.json             // typescript transpile configuration
 ```
 
 
@@ -38,7 +29,7 @@ exampleTypescript/
 
 This package.json references the local protractor directory with `"protractor": "file: ../"`. For the type declarations to work, from the protractor directory run an `npm install` to generate the declarations file.
 
-Next, install the exampleTypescript node_modules with:
+Next, install the node_modules with:
 
 ```
 npm install
