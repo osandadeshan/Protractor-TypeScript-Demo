@@ -70,7 +70,7 @@ To convert your typescript to javascript (transpiling), you'll use the Typescrip
 
 ## Running Protractor
 
-After transpiling your code to javascript, you'll run Protractor like before: `protractor conf.js`
+After transpiling your code to javascript, you'll run Protractor like before: `protractor ./compiled_typescript/conf.js`
 
 ## Helpful links
 
