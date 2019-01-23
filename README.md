@@ -135,7 +135,10 @@ If you install typescript globally, the command is `tsc`. If it is not installed
 
 ## Running Protractor
 
-After transpiling your code to javascript, you'll run Protractor like before: `protractor ./compiled_typescript/conf.js`
+After transpiling your code to javascript, you'll run Protractor like before: 
+```
+protractor ./compiled_typescript/conf.js`
+```
 
 <br />
 
