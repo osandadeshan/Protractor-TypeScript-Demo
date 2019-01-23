@@ -129,7 +129,14 @@ To convert your typescript to javascript (transpiling), you'll use the Typescrip
 ```
 npm install typescript -g
 ```
-If you install typescript globally, the command is `tsc`. If it is not installed globally, the typescript compiler can be executed with `npm run tsc`.
+If you install typescript globally, the command is:
+```
+tsc
+```
+If it is not installed globally, the typescript compiler can be executed with:
+```
+npm run tsc
+```
 
 <br />
 
