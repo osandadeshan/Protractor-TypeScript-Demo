@@ -67,7 +67,6 @@ This example demonstrates how you should use page object model design pattern wi
 Protractor-TypeScript-Demo/
 |- node_modules/             // downloaded node modules
 |- compiled_typescript/      // compiled javascript output
-|
 |- .gitignore                // since typescript produces javascript, we should not commit javascript to the repo
 |- page/angularPage.ts       // page object example
 |- conf.ts                   // configuration for the page objects example
